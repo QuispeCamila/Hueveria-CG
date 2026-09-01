@@ -1,16 +1,28 @@
-# React + Vite
+# Huevos C&G — Panel de Administración
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Panel interno para gestionar las ventas de maples de huevo, las devoluciones
+de envases y los descuentos asociados, y el registro de clientes del
+emprendimiento Huevos C&G.
 
-Currently, two official plugins are available:
+## Integrantes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Camila Quispe Rosa
+- Gustavo Exequiel Siñanis
 
-## React Compiler
+## Cómo levantarlo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clonar el repositorio e instalar las dependencias:
 
-## Expanding the ESLint configuration
+==================================================
+git clone https://github.com/QuispeCamila/Hueveria-CG.git
+cd Hueveria-CG
+npm install
+npm run dev
+==================================================
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Luego abrir en el navegador la URL que indica la terminal (por defecto
+`http://localhost:5173`).
+
+## Captura
+
+![alt text](image.png)

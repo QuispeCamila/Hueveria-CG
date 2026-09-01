@@ -1,0 +1,9 @@
+.pie {
+  background: rgb(226, 226, 217);
+  color: black;
+  padding: 20px 24px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.pie p { margin: 4px 0; }
